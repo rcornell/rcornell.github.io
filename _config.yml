@@ -1,20 +1,20 @@
 
 title: Rob Cornell's Resume
-url: 'http://webjeda.com'
+url: ''
 baseurl: '' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
+# style: styles-2
 #style: styles-3
 #style: styles-4
 #style: styles-5
-#style: styles-6
+style: styles-6
 
 
 #Profile information
-name: Rob Cornell
-tagline: Full Stack Engineer
+name: Rob Cornell, CFA
+tagline: Full Stack Software Engineer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
@@ -22,7 +22,7 @@ email: rob.cornell@gmail.com
 phone: 917 623 8824
 website:  #do not add http://
 linkedin: rob-cornell
-github: rcorell
+github: rcornell
 twitter: '@CubemonkeyNYC'
 
 
