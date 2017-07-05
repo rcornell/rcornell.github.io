@@ -1,31 +1,31 @@
-
-title: Rob Cornell's Resume
-url: ''
-baseurl: '' #change it according to your repository name
-
-
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-# style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-style: styles-6
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
 
 
-#Profile information
-name: Rob Cornell, CFA
-tagline: Full Stack Software Engineer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
+# edit here to achieve your personal greatness
+url: http://rcornell.github.io/
+baseurl: /
+title: Rob Cornell's Page
+author: Rob Cornell
+description: Personal blog and resume
+avatar: profile.png
 email: rob.cornell@gmail.com
-phone: 917 623 8824
-website:  #do not add http://
+github: rcornell # username
+twitter: CubemonkeyNYC
 linkedin: rob-cornell
-github: rcornell
-twitter: '@CubemonkeyNYC'
+stackoverflow: users/1585605/cubemonkeynyc   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+# disqus: username
+google_analytics: UA-69391421-1
 
 
-# Tracker
-analytics: UA-83979019-1
-#Update all the sections by editing the files inside _includes folder.
+# needed for travis-ci build
+exclude: [vendor]
